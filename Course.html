@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo3.jpg"></a>
+            <div class="menu" id="navlinks">
+                <i class="ri-close-line" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="ri-menu-line" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+
+
+    <!-- Courses -->
+
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-column">
+                <h3>Intermidiate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non optio repudiandae quos ullam quia ratione accusantium nulla. Laudantium minima autem nihil fugit amet dolores asperiores inventore! Voluptatum nam esse culpa?</p>
+            </div>
+            <div class="course-column">
+                <h3>Post Graduate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non optio repudiandae quos ullam quia ratione accusantium nulla. Laudantium minima autem nihil fugit amet dolores asperiores inventore! Voluptatum nam esse culpa?</p>
+            </div>
+            <div class="course-column">
+                <h3>Degree</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non optio repudiandae quos ullam quia ratione accusantium nulla. Laudantium minima autem nihil fugit amet dolores asperiores inventore! Voluptatum nam esse culpa?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus -->
+
+    <!-- Facilities -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="library.jpg">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam corrupti ipsam voluptas?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="sports.jpg">
+                <h3>Largest PlayGround</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam corrupti ipsam voluptas?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="classroom.jpg">
+                <h3>Large Classroom</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam corrupti ipsam voluptas?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+
+    <!-- Call to Action -->
+
+    <!-- footer  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur iusto aliquid voluptatem eius, <br>ipsum pariatur hic suscipit, repellendus odit voluptatibus modi distinctio vero.</p>
+        <div class="icons">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-linkedin-fill"></i>
+        </div>
+        <p>Made with <i class="ri-heart-line"></i> by Easy Tutorials</p>
+
+    </section>
+
+
+    <!-- A little JavaScript code  -->
+    <script>
+        var navLinks = document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

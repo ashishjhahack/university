@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo3.jpg"></a>
+            <div class="menu" id="navlinks">
+                <i class="ri-close-line" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="ri-menu-line" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- About us content  -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World's Largest University</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ut non, facilis unde voluptates asperiores optio! Quae laborum asperiores, rem aspernatur perferendis magni cumque doloremque voluptates sit nihil ratione suscipit?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium placeat sit iusto?</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="online.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses -->
+
+    <!-- Campus -->
+
+    <!-- Facilities -->
+
+    <!-- testimonials -->
+
+    <!-- Call to Action -->
+
+    <!-- footer  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur iusto aliquid voluptatem eius, <br>ipsum pariatur hic suscipit, repellendus odit voluptatibus modi distinctio vero.</p>
+        <div class="icons">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-linkedin-fill"></i>
+        </div>
+        <p>Made with <i class="ri-heart-line"></i> by Easy Tutorials</p>
+
+    </section>
+
+
+    <!-- A little JavaScript code  -->
+    <script>
+        var navLinks = document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

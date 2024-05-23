@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo3.jpg"></a>
+            <div class="menu" id="navlinks">
+                <i class="ri-close-line" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="ri-menu-line" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2024</h1>
+    </section>
+
+    <!-- blog page content  -->
+    <seection class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate2.jpg" >
+                <h2>Our Certificate & Online Programs for 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quas libero enim temporibus praesentium reiciendis provident quaerat vitae delectus amet quam, harum magni tempore placeat explicabo id ex. Reiciendis, deserunt?</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quas deleniti, esse nobis officiis blanditiis provident! A, perferendis! Ratione architecto veniam repellat voluptatibus quas temporibus iusto consequuntur, laboriosam eius aliquid fugiat unde mollitia id. Odit repudiandae exercitationem beatae blanditiis optio?</p>
+
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter name">
+                        <input type="email" placeholder="Enter email">
+                        <textarea placeholder="your comment" rows="5"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Machine Learnig</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>AutoCad</span>
+                    <span>42</span>
+                </div>
+            </div>
+        </div>
+    </seection>
+
+    <!-- footer  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur iusto aliquid voluptatem eius, <br>ipsum pariatur hic suscipit, repellendus odit voluptatibus modi distinctio vero.</p>
+        <div class="icons">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-linkedin-fill"></i>
+        </div>
+        <p>Made with <i class="ri-heart-line"></i> by Easy Tutorials</p>
+
+    </section>
+
+
+    <!-- A little JavaScript code  -->
+    <script>
+        var navLinks = document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
